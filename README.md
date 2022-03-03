@@ -1,6 +1,6 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+This datalist filter plugin can perform a full text search across multiple datalist columns in a datalist.
 
 # Getting Help
 
