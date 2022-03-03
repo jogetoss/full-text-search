@@ -1,0 +1,52 @@
+[{
+    "title" : "@@datalist.ftsdft.config@@",
+    "properties" : [{
+        "name" : "useCustomQuery",
+        "label" : "@@datalist.ftsdft.useCustomQuery@@",
+        "type" : "checkbox",
+        "value" : "",
+        "options" : [{
+            "label" : "",
+            "value" : "true"
+        }]
+    },
+    {
+        "name" : "searchCondition",
+        "label" : "@@datalist.ftsdft.searchCondition@@",
+        "type" : "selectbox",
+        "value" : "OR",
+        "options" : [
+            {
+                "value" : "OR",
+                "label" : "OR"
+                
+            },
+            {
+                "value" : "AND",
+                "label" : "AND"
+            }
+        ],
+        "required" : "true",
+        "control_field" : "useCustomQuery",
+        "control_value" : ""
+    },
+    {
+        "name" : "columns",
+        "label" : "@@datalist.ftsdft.columns@@",
+        "type" : "multiselect",
+        "options_callback" : "DatalistBuilder.getColumnOptions",
+        "required" : "true",
+        "control_field" : "useCustomQuery",
+        "control_value" : ""
+    },
+    {
+        "name" : "filterQuery",
+        "label" : "@@datalist.ftsdft.CustomFilterQuery@@",
+        "description" : "@@datalist.ftsdft.CustomFilterQuery.desc@@",
+        "type" : "codeeditor",
+        "mode" : "sql",
+        "required" : "true",
+        "control_field" : "useCustomQuery",
+        "control_value" : "true"
+    }]
+}]
