@@ -1,6 +1,6 @@
 # Description
 
-This datalist filter plugin can perform a full text search across multiple datalist columns in a datalist.
+This datalist filter plugin can perform a full text search across multiple datalist columns in a datalist. See [documentation](https://dev.joget.org/community/display/marketplace/Full+Text+Search).
 
 # Getting Help
 
