@@ -20,7 +20,7 @@ public class FullTextSearch extends DataListFilterTypeDefault {
     }
 
     public String getVersion() {
-        return "6.0.1";
+        return "6.0.2";
     }
     
     public String getClassName() {
